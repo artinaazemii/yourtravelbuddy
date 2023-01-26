@@ -1,0 +1,863 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+ body{ 
+  padding: 0 0 200px;
+  } 
+.menu-bar {
+  min-height: 7%;
+  background-color: rgb(223, 110, 79);
+}
+.nav-link:hover {
+  cursor: pointer;
+}
+.navbar-brand {
+  border-style: hidden;
+  border-color: aliceblue;
+  padding: 2px;
+  border-radius: 0.2cm;
+  background-color: transparent;
+  color: yellow;
+}
+.navbar .navbar-brand {
+  font-weight: normal;
+  font-size: 35px;
+  float: right;
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.container-fluid {
+  float: right;
+  background-color: rgb(223, 110, 79);
+}
+.aa-images {
+  width: 1085px;
+  height: 500px;
+  border-radius: 5%;
+  background-image: url(fotot/Brazil.webp);
+  background-size: cover;
+  background-position: center;
+  margin: 100px auto;
+  animation: slide 20s infinite;
+}
+@keyframes slide {
+  0% {
+    background-image: url(fotot/5104226627001_6124433469001_6124368204001-vs.jpg);
+  }
+  25% {
+    background-image: url(fotot/Brazil.webp);
+  }
+  30% {
+    background-image: url(fotot/shutterstockRF_153080222.jpg);
+  }
+  50% {
+    background-image: url(fotot/Most-beautiful-places-to-visit-in-Brazil.jpg);
+  }
+  60% {
+    background-image: url(fotot/The-Best-Places-To-Visit-In-Brazil.jpg);
+  }
+  75% {
+    background-image: url(fotot/18brazil1.jpg);
+  }
+  80% {
+    background-image: url(fotot/Paraty-Rio-de-Janeiro-1200x854.jpg);
+  }
+  100% {
+    background-image: url(fotot/world-cup-2014-manaus.webp);
+  }
+}
+.aa-video {
+  display: block;
+}
+#aa-video{
+  display: none;
+
+}
+.aa-button {
+  background-color: rgb(233, 110, 79);
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.aa-about {
+  margin-bottom: 2cm;
+  padding-top: 3cm;
+  margin-left: 210px;
+}
+.aa-flag {
+  height: 160px;
+  width: 180px;
+  float: right;
+}
+.aa-map {
+  margin-bottom: 150px;
+}
+.aa-flag {
+  margin-right: 150px;
+}
+.aa-greetings {
+  margin-bottom: 210px;
+}
+.aa-greet {
+  text-align: left;
+}
+.aa-informations {
+  height: 100px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.aa-information {
+  display: flex;
+  flex-direction: row;
+}
+.aa-gov {
+  margin-left: 150px;
+  margin-bottom: 150px;
+}
+.aa-gov h2 {
+  margin: auto;
+}
+#aa-contact {
+  float: left;
+}
+.aa-footerimg {
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+.aa-socialmedia {
+  float: right;
+}
+.aa-travel {
+  margin-top: 2px;
+  margin-left: 30%;
+  display: inline;
+}
+.aa-footer{
+  background-color: rgb(223, 110, 79);
+  bottom: 0;
+  margin-bottom: -400px;
+}
+.aa-f {
+  color: black;
+  float: right;
+  margin-top: 100px;
+}
+.aa-copyright {
+  float: center;
+  margin: auto;
+}
+/*Login*/
+.aa-form {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  max-width: 35%;
+  text-align: center;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border-radius: 25px;
+  margin-top: 200px;
+}
+.aa-h {
+  color: rgb(229, 238, 243);
+}
+.aa-message {
+  color: rgb(191, 173, 221);
+}
+input {
+  border-radius: 35px;
+  padding-left: 15px;
+  border: none;
+  background-color: lightgray;
+}
+.aa-login {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url(fotot/background2.jpg);
+}
+
+/*Rio De Janerio*/
+.aa-Rio {
+  background-image: url(fotot/riodejaneiro.jpg);
+  background-repeat: repeat;
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#aa-R {
+  color: white;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#aa-R2 {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.aa-inforio {
+  text-align: center;
+  margin-top: 80px;
+  border: saddlebrown solid;
+  margin-top: 100px;
+}
+.aa-hotelsRio {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  margin-top: 100px;
+}
+.aa-hotelsRio h3 {
+  margin-right: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aa-hotelsRio img {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.aa-hR {
+  margin: 5px;
+  float: left;
+  width: 390px;
+}
+.aa-foods {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  margin-top: 40px;
+}
+.aa-gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+}
+.aa-gallery img {
+  width: 100%;
+  height: auto;
+}
+.aa-gallery img:hover {
+  cursor: pointer;
+}
+.aa-description {
+  padding: 5px;
+  text-align: center;
+  font-size: medium;
+}
+.aa-cantmiss {
+  text-align: center;
+  margin-top: 100px;
+}
+.aa-facts {
+  padding: 40px;
+  background: #fdfdfd;
+  background-color: rgb(2, 62, 90);
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.aa-facts h2 {
+  margin-bottom: 10px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+.aa-facts ul li {
+  list-style: none;
+  color: white;
+}
+table {
+  width: 100%;
+  margin-top: 70px;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.aa-th {
+  background-color: rgb(228, 116, 46);
+  color: white;
+}
+.aa-td {
+  background-color: rgb(240, 172, 75);
+  color: white;
+}
+.aa-ssaw {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+.aa-sh {
+  padding-top: 100px;
+  color: black;
+  text-align: center;
+}
+.aa-end {
+  margin-top: 20px;
+  margin-bottom: -900px;
+}
+/*Sao Paulo*/
+.aa-saopaulo {
+  background-image: url(fotot/saopaulo4.jpg);
+  background-repeat: repeat;
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.aa-sp {
+  color: white;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(3, 23, 62);
+}
+.aa-sp1 {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin-top: 60px;
+  text-shadow: 5px 5px 5px rgb(3, 23, 62);
+}
+.aa-info {
+  text-align: center;
+  margin-top: 10px;
+  border: rgb(1, 46, 82) solid;
+  margin-left: -210px;
+}
+.aa-about {
+  margin-top: 70px;
+}
+.aa-ths {
+  background-color: rgb(37, 119, 177);
+  color: white;
+}
+.aa-tds {
+  background-color: rgb(90, 155, 201);
+  color: white;
+}
+.aa-saofacts {
+  padding: 40px;
+  background: #fdfdfd;
+  background-color: rgb(23, 118, 161);
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.aa-saofacts ul li p {
+  color: white;
+}
+.aa-saofacts ul li {
+  list-style: none;
+}
+.aa-saofacts h2 {
+  color: white;
+  border-bottom: 2px solid;
+  display: inline-block;
+}
+.aa-SPfoods {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  margin-left: 240px;
+}
+.aa-foodssao {
+  text-align: center;
+}
+.aa-photos {
+  margin: 5px;
+  width: 400px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.aa-photos img {
+  width: 100%;
+  height: auto;
+}
+.aa-caption {
+  padding: 5px;
+  text-align: center;
+
+  font-size: medium;
+}
+.aa-SPfoods h3 {
+  text-align: center;
+  margin-right: 400px;
+}
+.aa-sao {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+.aa-ssh {
+  padding-top: 100px;
+  color: black;
+  text-align: center;
+}
+.aa-end {
+  margin-top: 20px;
+}
+.aa-hotelsSao {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  overflow: auto;
+}
+.aa-hS {
+  margin: 5px;
+  float: left;
+  width: 390px;
+}
+.aa-hotelsSao img {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.aa-hotelsSao h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*Brasilia*/
+.aa-brasilia {
+  background-image: url(fotot/brasilia16.webp);
+  background-repeat: repeat;
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.aa-b {
+  color: white;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(3, 23, 62);
+}
+.aa-b3 {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin-top: 60px;
+  text-shadow: 5px 5px 5px rgb(3, 23, 62);
+}
+.aa-brasiliaabout {
+  margin-top: 70px;
+}
+.aa-thb {
+  background-color: rgb(52, 139, 66);
+  color: white;
+}
+.aa-tdb {
+  background-color: rgb(101, 183, 114);
+  color: white;
+}
+.aa-infobrasilia {
+  text-align: center;
+  border: solid rgb(19, 81, 28);
+}
+.aa-brasiliafacts {
+  padding: 40px;
+  background: #fdfdfd;
+  background-color: rgb(8, 162, 167);
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.aa-brasiliafacts ul li p {
+  color: white;
+}
+.aa-brasiliafacts h2 {
+  color: white;
+  border-bottom: 2px solid;
+  display: inline-block;
+}
+.aa-brasiliafacts ul li {
+  list-style: none;
+}
+.aa-Bfoods {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+}
+.aa-bf {
+  text-align: center;
+}
+.aa-pictures {
+  margin: 5px;
+  width: 400px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.aa-pictures img {
+  width: 100%;
+  height: auto;
+}
+.aa-cap {
+  padding: 5px;
+  text-align: center;
+  font-size: medium;
+}
+.aa-Bfoods {
+  margin-left: 220px;
+}
+.aa-Bfoods h3 {
+  text-align: center;
+  margin-right: 300px;
+}
+.aa-brasiliaseasons {
+  border-style: solid;
+  border-color: darkgrey;
+}
+.aa-bseasonalhighlights {
+  margin-top: 80px;
+  margin-bottom: -25px;
+}
+.aa-photob {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+.aa-recommendation {
+  margin-top: 35px;
+  margin-bottom: -900px;
+}
+.aa-hotelsBrasilia {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  margin-top: 100px;
+  margin-right: 90px;
+}
+.aa-hotelsBrasilia h3 {
+  margin-right: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aa-hotelsBrasilia img {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+.aa-hB {
+  margin: 5px;
+  float: left;
+  width: 390px;
+}
+.aa-hotelcapB {
+  margin-left: 200px;
+}
+/*Salvador*/
+.aa-salvador {
+  background-image: url(fotot/salvador.jpg);
+  background-repeat: repeat;
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.aa-s {
+  color: white;
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(3, 23, 62);
+}
+.aa-s3 {
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  margin-top: 60px;
+  text-shadow: 5px 5px 5px rgb(3, 23, 62);
+}
+.aa-infos {
+  text-align: center;
+  border: solid rgb(145, 114, 145);
+}
+.aa-aboutsalvador {
+  margin-top: 50px;
+}
+.aa-thsv {
+  color: white;
+  background-color: rgb(222, 127, 179);
+}
+.aa-tdsv {
+  color: white;
+  background-color: rgb(161, 113, 140);
+}
+.aa-salvadorfacts ul li p {
+  color: white;
+}
+.aa-salvadorfacts h2 {
+  color: white;
+  border-bottom: 2px solid;
+  display: inline-block;
+}
+.aa-salvadorfacts ul li {
+  list-style: none;
+}
+.aa-salvadorfacts {
+  background: #fdfdfd;
+  background-color: rgb(214, 152, 199);
+  margin-top: 50px;
+  margin-bottom: 70px;
+  padding: 40px;
+}
+.aa-foodsS {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  margin-left: 300px;
+}
+.aa-photoss {
+  margin: 5px;
+  width: 400px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.aa-photoss img {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.aa-cm {
+  text-align: center;
+}
+.aa-foodsS h3 {
+  text-align: center;
+  margin-right: 350px;
+  margin-left: auto;
+}
+.aa-caption {
+  padding: 5px;
+  text-align: center;
+
+  font-size: medium;
+}
+.aa-four {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+.aa-seasons {
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+}
+.aa-besttime {
+  margin-top: 5px;
+  margin-bottom: -900px;
+}
+.aa-hotelsSalvador {
+  max-width: 1200px;
+  margin: auto;
+  overflow: auto;
+  margin-top: 100px;
+  margin-right: 90px;
+}
+.aa-hotelsSalvador h3 {
+  margin-right: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aa-hotelsSalvador img {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+.aa-hSl {
+  margin: 5px;
+  float: left;
+  width: 390px;
+}
+.aa-fh {
+  text-align: center;
+  margin-top: 100px;
+}
+.aa-hotelcapS {
+  margin-left: 200px;
+}
+/*Media Queries*/
+@media only screen and (max-width: 1200px) {
+  .aa-images {
+    width: 990px;
+    background-image: url(fotot/Brazil.webp);
+  }
+  .aa-greet {
+    text-align: left;
+  }
+  .aa-pictures {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-photos {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-photoss {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-hB {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aa-hSl {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .aa-images {
+    width: 100%;
+    background-image: url(fotot/Brazil.webp);
+  }
+  .aa-information {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-pictures {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-hB {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aa-photos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aa-photoss {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-hSl {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .aa-images {
+    background-image: url(fotot/Brazil.webp);
+    width: 100%;
+  }
+  .aa-information {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-greet {
+    text-align: left;
+  }
+  #aa-video video {
+    width: 100%;
+  }
+  .aa-pictures {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    float: right;
+  }
+  .aa-hB {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aa-photos {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-photoss {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-hSl {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aa-images {
+    width: 100%;
+    background-image: url(fotot/Brazil.webp);
+  }
+  .aa-information {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-greet {
+    text-align: left;
+  }
+  #aa-video video {
+    width: 100%;
+  }
+  .aa-pictures {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    float: right;
+  }
+  .aa-hB {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aa-photos {
+    display: flex;
+    flex-direction: column;
+  }
+  .aa-photoss {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .aa-hSl {
+    width: 100%;
+  }
+}
